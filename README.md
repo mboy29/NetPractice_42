@@ -30,6 +30,20 @@ Same goes here : 82.78.118.1 - 82.78.119.254 / 23.
 
 ### LEVEL 05 :
 
-As seen before, for two interfaces to communicate they need to share the same subnet mask and have IP addresses form the same range. However, for two interface to communicate that don't belong to the same network we have to use a gateway that takes two IP addresses. One that represents where we come from (and subnet mask) and the other where we are going (where we come from can be a default IP address : 0.0.0.0/0).
+As seen before, for two interfaces to communicate they need to share the same subnet mask and have IP addresses form the same range. However, for two interface to communicate that don't belong to the same network we have to use a gateway.
+A gateway is composed of one IP address with a subnet mask (where we come from) and another IP address (where we are going). Where we come from can be composed of a default IP address and a default mask : 0.0.0.0/0).
 
 ![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level05-2.png)
+
+### LEVEL 06 :
+
+A internet interfaces work the same way as a gateway. However, the IP address and the subnet mask of where i come from can't be set to a default value. Else, see level03 in order to configure the interfaces connect to a network switch.
+
+![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level06-2.png)
+
+### LEVEL 07 :
+
+A internet interfaces work the same way as a gateway. However, the IP address and the subnet mask of where i come from can't be set to a default value. Else, see level03 in order to configure the interfaces connect to a network switch.
+
+![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level07-2.png)
+
