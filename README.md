@@ -27,3 +27,9 @@ In order to for interfaces from the same network switch all interfaces need to h
 Same goes here : 82.78.118.1 - 82.78.119.254 / 23.
 
 ![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level04-2.png)
+
+### LEVEL 05 :
+
+Same goes here : 82.78.118.1 - 82.78.119.254 / 23.
+
+![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level05-2.png)
