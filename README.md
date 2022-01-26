@@ -2,15 +2,16 @@
 
 ### LEVEL 01 :
 
-In order for my PC and my little brother's to communicate, the two interface need to have the same subnet mask and have IP addresses from the same rang (same goes for connecting my Mac and my little sister's computer):
+My PC and my little brother's computer need to have the same subnet mask and IP address range before they can communicate (the same applies for my Mac and my sister's computer):
 - 104.96.23.1 - 104.96.23.254 /24 ;
 - 221.191.0.1 - 221.191.255.254 /16.
+
 
 ![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level01-2.png)
 
 ### LEVEL 02 :
 
-Same goes for this level :
+The same applies to this level :
 - 92.168.1.1 - 92.168.1.2 /30 ;
 - 192.168.65.193 - 192.168.65.222 /27.
 
@@ -18,55 +19,48 @@ Same goes for this level :
 
 ### LEVEL 03 :
 
-In order for interfaces from the same network switch to communicate, all interfaces need to have the same subnet mask and have tp belong to the same range of IP addresses : 104.198.212.129 - 104.198.212.254 /25.
+A network switch's interfaces must share the same subnet mask and IP addresses in order to communicate: 104.198.212.129 - 104.198.212.254 /25.104.198.212.129 - 104.198.212.254 /25.
 
 ![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level03-2.png)
 
 ### LEVEL 04 :
 
-Same goes here : 82.78.118.1 - 82.78.119.254 / 23.
+The same applies here : 82.78.118.1 - 82.78.119.254 / 23.
 
 ![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level04-2.png)
 
 ### LEVEL 05 :
 
-As seen before, for two interfaces to communicate they need to share the same subnet mask and have IP addresses form the same range. However, for two interface to communicate outside of there respective network we have to use static route.
+It has been seen before that for two interfaces to communicate, they need to have the same subnet mask and IP addresses in the same range. However, static routes are needed for two interfaces to communicate outside their respective networks.
 
-A static route is composed of one IP address with a subnet mask (where we come from / on the left) and another IP address (where we are going / one the right) also called a gateway. Where we come from can be composed of a default IP address and a default mask : 0.0.0.0/0).
+Static routes consist of one IP address with a subnet mask (where we come from/on the left) and another IP address (where we are going/on the right), also called a gateway. IP address and default mask for where we are can be represented as 0.0.0.0/0 (which is equivalent to any IP address and any subnet mask).
 
 ![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level05-2.png)
 
 ### LEVEL 06 :
 
-A internet interfaces work the same way as a static route. However, the IP address and the subnet mask of where i come from can't be set to a default value. Else, see level03 in order to configure the interfaces connect to a network switch.
+Internet interfaces work the same way as static routes. There is however no way to set my IP address and subnet mask to defaults. Otherwise, see level03 to configure the network interfaces.
 
 ![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level06-2.png)
 
 ### LEVEL 07 :
 
-See level05 in order to configure the different gateways. 
-Warning : When configuring two computers in order for them to communicate with each other, it is important to make sure no there is no intersection of networks
+To configure the different gateways, see level05.
+In order for two computers to communicate with each other, it is important to make sure that their networks do not intersect.
 
 ![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level07-2.png)
 
 
 ### LEVEL 08 :
 
-See level05 in order to configure the different static routes. 
-Else, see level06 to set internet interface.
-
-![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level08-2.png)
-
-### LEVEL 08 :
-
-See level05 in order to configure the different static routes. 
-Else, see level06 to set internet interface.
+In order to configure the different static routes, see level05.
+Else, to set an internet interface see level06.
 
 ![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level08-2.png)
 
 ### LEVEL 09 and 10 :
 
-See all previous levels in order to configurate the networks of level09 and level10.
+In order to configure the networks of level09 and level10, see all previous levels.
 
-![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level9-2.png)
+![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level09-2.png)
 ![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level10-2.png)
