@@ -1,5 +1,7 @@
 # NetPractice_42
 
+This project will help us discover networkint through practical cases. We will have to configure small networks thoughout 10 exercises of 10 different levels of difficulty.
+
 ### LEVEL 01 :
 
 My PC and my little brother's computer need to have the same subnet mask and IP address range before they can communicate (the same applies for my Mac and my sister's computer):
