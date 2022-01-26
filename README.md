@@ -8,10 +8,18 @@ In order for my PC and my little brother's to communicate, the two divices need 
 
 ![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level01-2.png)
 
-### LEVEL 01 :
+### LEVEL 02 :
 
 Same goes for this level :
 - 92.168.1.1 - 92.168.1.2 /30
 - 192.168.65.193 - 192.168.65.222 /27
 
 ![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level02-2.png)
+
+### LEVEL 03 :
+
+Same goes for this level :
+- 92.168.1.1 - 92.168.1.2 /30
+- 192.168.65.193 - 192.168.65.222 /27
+
+![alt text](https://github.com/mboy29/NetPractice_42/blob/main/Levels/level03-2.png)
