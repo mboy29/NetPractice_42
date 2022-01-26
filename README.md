@@ -1,6 +1,6 @@
 # NetPractice_42
 
-This project will help us discover networkint through practical cases. We will have to configure small networks thoughout 10 exercises of 10 different levels of difficulty.
+This project will help us discover networking through practical cases. We will have to configure small networks thoughout 10 exercises of 10 different levels of difficulty.
 
 ### LEVEL 01 :
 
