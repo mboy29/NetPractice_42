@@ -2,6 +2,11 @@
 
 This project will help us discover networking through practical cases. We will have to configure small networks thoughout 10 exercises of 10 different levels of difficulty.
 
+Use :
+- https://www.adminsub.net/ipv4-subnet-calculator/192.168.0.1/255.255.255.0 ;
+- https://fr.wikipedia.org/wiki/Classe_d%27adresse_IP ;
+- https://fr.wikipedia.org/wiki/Sous-r%C3%A9seau ;
+
 ### LEVEL 01 :
 
 My PC and my little brother's computer need to have the same subnet mask and IP address range before they can communicate (the same applies for my Mac and my sister's computer):
